@@ -184,12 +184,13 @@ a:visited{
 }
 
 .languages{
-    font-size: 30px;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;
     padding: 5px 1rem;
 }
+
 .language{
     display: flex;
     flex-direction: column;
@@ -197,6 +198,7 @@ a:visited{
     color: rgb(3, 3, 3);
     gap: 10px 0px;
 }
+
 .lang-level{
     display: flex;
     flex-direction: row;
@@ -228,11 +230,11 @@ a:visited{
     gap: 10px 10px;
 }
 .project-name{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .project-description{
-    font-size: 1.25rem;
+    font-size: 0.75rem;
 }
 
 @media screen and (max-width : 800px ){
