@@ -138,7 +138,7 @@ body{
   }
 
   
-  .subtitle{
+.subtitle{
     font-size: 1.75rem;
 }
 
@@ -162,12 +162,12 @@ a:visited{
   color: rgb(2, 2, 2)
 }
 .links{
-  margin-top: 4rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 100px 10px;
+  gap: 4rem 10px;
   font-size: 3rem;
 }
 #home{
@@ -236,9 +236,12 @@ a:visited{
 }
 
 @media screen and (max-width : 800px ){
-
+    .subtitle{
+        font-size: 1rem;
+    }
     .all-skills{
         flex-direction: column;
+        gap : 4rem ;
     }
     .profile-image{
         width: 15rem;
