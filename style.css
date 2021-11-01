@@ -227,20 +227,43 @@ h4 {
   color: #bb86fc;
 }
 
-.languages {
-  font-size: 1rem;
+.lang-exp {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  gap: 4rem;
-  padding: 5px 1rem;
+  gap: 50px;
+  height: 80vh;
+  width: 40vw;
+  background-color: #12121247;
+  border-radius: 5px;
+  color:#bb86fc;
 }
 
-.language {
+#experiences-languages{
+  flex-direction: row !important;
+  gap: 20px;
+}
+
+.lang img {
+  width: 20px;
+  height: 20px;
+  
+}
+.all-items{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  color: rgb(3, 3, 3);
-  gap: 10px 0px;
+  flex-direction: column;
+  gap:20px;
+}
+
+.lang{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
 }
 
 .lang-level {
@@ -286,6 +309,17 @@ h2{
 .c-projects {
     justify-content: space-evenly !important    ;
 }
+@media screen and (max-width: 1060px) {
+  .profile-image{
+    position: inherit;
+    width: 7rem;
+    height: 7rem;
+    border:0;
+  }
+  .main-link{
+    height: 200px;
+  }
+}
 @media screen and (max-width: 800px) {
   .subtitle {
     font-size: 1rem;
@@ -294,15 +328,13 @@ h2{
     flex-direction: column;
     gap: 4rem;
   }
-  .profile-image {
-    width: 15rem;
-    height: 15rem;
+  .profile-image{
+    position: inherit;
+    width: 7rem;
+    height: 7rem;
+    border:0;
   }
-  .links {
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -316,14 +348,44 @@ h2{
     font-size: 2rem;
   }
   .profile-image {
-    width: 10rem;
-    height: 10rem;
+    width: 5rem;
+    height: 5rem;
   }
   .logo {
     width: 25px;
   }
-  .links {
-    display: flex;
+
+ 
+}
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 13px;
+  }
+  .all-skills {
     flex-direction: column;
+  }
+  .dashed-name {
+    font-size: 2rem;
+  }
+  .profile-image {
+    width: 5rem;
+    height: 5rem;
+  }
+  .logo {
+    width: 25px;
+  }
+  .main-link{
+    height: 100px;
+  }
+  .main-link img{
+    height: 50px;
+    width: 50px;
+  }
+  .details{
+    flex-direction: column;
+  }
+
+  .dashed-name {
+    font-size: 1.2rem;
   }
 }
