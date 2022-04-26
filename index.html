@@ -32,19 +32,21 @@
 
         <div class="links">
           <a class="main-link" href="#skills">
-            <img src="./assets/skills.png" />
+            <i class="fas fa-star fa-3x" style="color:#bb86fc"></i>
+            <!-- <img src="./assets/skills.png" /> -->
             <h4>SKILLS</h4>
           </a>
           <a class="main-link" href="#experiences-languages">
-            <img src="./assets/languages.png" />
+            <i class="fas fa-language fa-4x" style="color:#bb86fc"></i>
+            <!-- <img src="./assets/languages.png" /> -->
             <h4>LANGUAGES</h4>
           </a>
           <a class="main-link" href="#projects">
-            <img src="./assets/projects.png" />
+            <i class="fas fa-project-diagram fa-3x" style="color:#bb86fc"></i>
             <h4>PROJECTS</h4>
           </a>
           <a class="main-link" href="#experiences-languages">
-            <img src="./assets/experiences.png" />
+            <i class="fas fa-tasks fa-3x" style="color:#bb86fc"></i>
             <h4>EXPERIENCES</h4>
           </a>
         </div>
@@ -156,7 +158,7 @@
               </div>
               <div class="tooltip">
                 <img src="./assets/ubuntu.png" class="logo" alt="" />
-                <h4>Ubuntu</h4>
+                <h4>Linux</h4>
                 <span class="tooltip-text"
                   >Niveau intermédiaire Administration systémes</span
                 >
@@ -175,51 +177,61 @@
 
       <div class="container " id="experiences-languages">
         <div class="lang-exp">
-          <h2>Languages</h2>
+          <h2 class="xp-title" >Languages</h2>
          <div class="all-items">    
             <div class="lang">
               <h5>Arabe</h5>
-              <h4>
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-              </h4>
+              <div class="stars">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
             </div>
             <div class="lang">
               <h5>Français</h5>
-              <h4>
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-              </h4>
+              <div class="stars">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
             </div>
             <div class="lang">
               <h5>Anglais</h5>
-              <h4>
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-              </h4>
+              <div class="stars">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
             </div>
             <div class="lang">
               <h5>Allemand - Néerlandais</h5>
-              <h4>
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-                <img src="./assets/star.png" />
-              </h4>
+              <div class="stars">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
             </div>
          </div>
         </div>
 
         <div class="lang-exp">
-            <h2>Expériences</h2>
-            <div class="all-items">    
-             
+            <h2 class="xp-title">Experiences</h2>
+            <div class="all-items">
+              <div class="xp">
+                <span class="xp-proof"><img src="./assets/32.jpg" class="proof"></span>
+                  <img src="./assets/icpc.png" alt="" class="xp-logo">
+                  <p>32éme place dans le Tunisian Collegiate Programming Contest (2021)</p>
+              </div>
+              <div class="xp">
+                <span class="xp-proof"><img src="./assets/42.jpg" class="proof"></span>
+                  <img src="./assets/icpc.png" alt="" class="xp-logo">
+                  <p>42éme place dans le Tunisian Collegiate Programming Contest (2020)</p>
+              </div>
             </div>
         </div>
 
@@ -231,8 +243,9 @@
             <img
               class="project-thumbnail"
               src="./assets/stattrack.png"
-              alt="praccforces"
+              alt="stattrack"
             />
+           <p> <a href="https://github.com/Alzomra/PFA">Stattrack</a></p>
           </div>
 
           <div class="project-details">
@@ -260,6 +273,7 @@
               src="./assets/praccforces.png"
               alt="praccforces"
             />
+            <p> <a href="https://www.github.com">PraccForces</a> (Verified Bot) <i class="fa-solid fa-check" style="color : rgb(0, 118, 222)"></i></p>
           </div>
 
           <div class="project-details">
@@ -278,13 +292,40 @@
           </div>
         </div>
 
+        
+        <div class="project">
+          <div class="project-link">
+            <img
+              class="project-thumbnail"
+              src="./assets/syntAXE.png"
+              alt="praccforces"
+            />
+            <p> <a href="https://www.github.com">SyntAXE</a> (Verified Bot) <i class="fa-solid fa-check" style="color : rgb(0, 118, 222)"></i></p>
+          </div>
+
+          <div class="project-details">
+            <div class="project-name">
+              <h2>
+                Une application Discord pour l'apprentissage de syntaxe des langages de programmation</i>
+                <i class="fa-solid fa-check"></i>
+              </h2>
+            </div>
+
+            <div class="project-description">
+              SyntAXE vous permet de rechercher facilement la syntaxe de votre langage de programmation préféré. 
+              Prise en charge de Java, C, C++, C#, JS, Swift, Python, Ruby et Go.
+            </div>
+          </div>
+        </div>
+
         <div class="project">
           <div class="project-link">
             <img
               class="project-thumbnail"
               src="./assets/chalghoum.jpg"
-              alt="praccforces"
+              alt="chalghoum"
             />
+            <p> <a href="https://www.chalghoum.tn">Chalghoum</a></p>
           </div>
 
           <div class="project-details">
