@@ -136,7 +136,7 @@ a {
 }
 
 .xp:hover .xp-proof {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
