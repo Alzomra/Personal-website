@@ -1,333 +1,380 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/73c2957827.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@250&family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Website</title>
-  <link rel="stylesheet" href="./style.css" />
-  <script src="https://kit.fontawesome.com/73c2957827.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@250&family=Merriweather+Sans&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <div class="big-container">
-    <div class="container" id="home">
-      <div class="details">
-        <div class="image-container">
-          <img src="./assets/alzo1.png" class="profile-image" alt="disisme" />
+  <body>
+    <div class="big-container">
+      <div class="container" id="home">
+        <div class="details">
+          <div class="image-container">
+            <img src="./assets/alzo1.png" class="profile-image" alt="disisme" />
+          </div>
+          <div class="dashed-name">
+            <div class="dash"></div>
+            <div class="name">OUSSEMA LOUKIL</div>
+            <div class="dash"></div>
+          </div>
         </div>
-        <div class="dashed-name">
-          <div class="dash"></div>
-          <div class="name">OUSSEMA LOUKIL</div>
-          <div class="dash"></div>
+
+        <div class="links">
+          <a class="main-link" href="#skills">
+            <i class="fas fa-star fa-3x" style="color: #bb86fc"></i>
+            <!-- <img src="./assets/skills.png" /> -->
+            <h4>SKILLS</h4>
+          </a>
+          <a class="main-link" href="#experiences-languages">
+            <i class="fas fa-language fa-4x" style="color: #bb86fc"></i>
+            <!-- <img src="./assets/languages.png" /> -->
+            <h4>LANGUAGES</h4>
+          </a>
+          <a class="main-link" href="#projects">
+            <i class="fas fa-project-diagram fa-3x" style="color: #bb86fc"></i>
+            <h4>PROJECTS</h4>
+          </a>
+          <a class="main-link" href="#experiences-languages">
+            <i class="fas fa-tasks fa-3x" style="color: #bb86fc"></i>
+            <h4>EXPERIENCES</h4>
+          </a>
         </div>
       </div>
 
-      <div class="links">
-        <a class="main-link" href="#skills">
-          <i class="fas fa-star fa-3x" style="color:#bb86fc"></i>
-          <!-- <img src="./assets/skills.png" /> -->
-          <h4>SKILLS</h4>
-        </a>
-        <a class="main-link" href="#experiences-languages">
-          <i class="fas fa-language fa-4x" style="color:#bb86fc"></i>
-          <!-- <img src="./assets/languages.png" /> -->
-          <h4>LANGUAGES</h4>
-        </a>
-        <a class="main-link" href="#projects">
-          <i class="fas fa-project-diagram fa-3x" style="color:#bb86fc"></i>
-          <h4>PROJECTS</h4>
-        </a>
-        <a class="main-link" href="#experiences-languages">
-          <i class="fas fa-tasks fa-3x" style="color:#bb86fc"></i>
-          <h4>EXPERIENCES</h4>
-        </a>
+      <div class="container" id="skills">
+        <div class="all-skills">
+          <div class="skills">
+            <div class="subtitle">Programming Languages</div>
+
+            <div class="icons">
+              <div class="tooltip">
+                <img src="./assets/python.png" class="logo" alt="" />
+                <h4>Python</h4>
+                <span class="tooltip-text">Advanced</span>
+              </div>
+
+              <div class="tooltip">
+                <img src="./assets/js.png" class="logo" alt="" />
+                <h4>JavaScript</h4>
+                <span class="tooltip-text">Advanced</span>
+              </div>
+              <div class="tooltip">
+                <img src="./assets/cpp.png" class="logo" alt="" />
+                <h4>C++</h4>
+                <span class="tooltip-text">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="subtitle">Stylesheet & Markup Languages</div>
+            <div class="icons">
+              <div class="tooltip">
+                <img src="./assets/markdown.png" class="logo" alt="" />
+                <h4>Markdown</h4>
+                <span class="tooltip-text">Experienced</span>
+              </div>
+              <div class="tooltip">
+                <img src="./assets/html.png" class="logo" alt="" />
+                <h4>HTML</h4>
+                <span class="tooltip-text">Advanced</span>
+              </div>
+              <div class="tooltip">
+                <img src="./assets/css.png" class="logo" alt="" />
+                <h4>CSS</h4>
+                <span class="tooltip-text">Advanced</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills">
+            <div class="subtitle">DataBases & Frameworks</div>
+            <div class="icons">
+              <div class="tooltip">
+                <img src="./assets/mongodb.png" class="logo" alt="" />
+                <h4>MongoDB</h4>
+                <span class="tooltip-text">Advanced</span>
+              </div>
+              <div class="tooltip">
+                <img src="./assets/vuejs.png" class="logo" alt="" />
+                <h4>VueJS</h4>
+                <span class="tooltip-text">Intermediate</span>
+              </div>
+              <div class="tooltip">
+                <img src="./assets/flask.png" class="logo" alt="" />
+                <h4>Flask</h4>
+                <span class="tooltip-text"
+                  >Advanced API development skills</span
+                >
+              </div>
+              <div class="tooltip">
+                <img src="./assets/django.png" class="logo" alt="" />
+                <h4>Django</h4>
+                <span class="tooltip-text">Intermedaite</span>
+              </div>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="subtitle">Other Skills</div>
+            <div class="icons">
+              <div class="tooltip">
+                <img src="./assets/git.png" class="logo" alt="" />
+                <h4>Git</h4>
+                <span class="tooltip-text">Intermediate (version control)</span>
+              </div>
+              <div class="tooltip">
+                <img src="./assets/discord.png" class="logo" alt="" />
+                <h4>Discord</h4>
+                <span class="tooltip-text"
+                  >Certified Discord Bot Developper</span
+                >
+              </div>
+
+              <div class="tooltip">
+                <img src="./assets/docker.png" class="logo" alt="" />
+                <h4>Docker</h4>
+                <span class="tooltip-text">Beginner</span>
+              </div>
+              <div class="tooltip">
+                <img src="./assets/ubuntu.png" class="logo" alt="" />
+                <h4>Linux</h4>
+                <span class="tooltip-text"
+                  >Advanced (System administration)</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="back-to-top">
+          <a href="#home"><i class="fas fa-arrow-circle-up fa-2x"></i></a>
+        </div>
+      </div>
+
+      <div class="container" id="experiences-languages">
+        <div class="lang-exp">
+          <h2 class="xp-title">Languages</h2>
+          <div class="all-items">
+            <div class="lang">
+              <h5>Arabic</h5>
+              <div class="stars">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="lang">
+              <h5>French</h5>
+              <div class="stars">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="lang">
+              <h5>English</h5>
+              <div class="stars">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="lang">
+              <h5>German - Dutch</h5>
+              <div class="stars">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lang-exp overflow">
+          <h2 class="xp-title">Experiences & Certifications</h2>
+          <div class="all-items">
+            <div class="xp">
+              <span class="xp-proof"
+                ><img src="./assets/32.jpg" class="proof"
+              /></span>
+              <img
+                src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+                alt=""
+                class="xp-logo"
+              />
+              <p>AWS Certified Cloud Practitioner</p>
+            </div>
+            <div class="xp">
+              <span class="xp-proof"
+                ><img src="./assets/32.jpg" class="proof"
+              /></span>
+              <img
+                src="https://images.credly.com/images/44e2c252-5d19-4574-9646-005f7225bf53/image.png"
+                alt=""
+                class="xp-logo"
+              />
+              <p>AWS re/Start Graduate</p>
+            </div>
+            <div class="xp">
+              <span class="xp-proof"
+                ><img src="./assets/32.jpg" class="proof"
+              /></span>
+              <img src="./assets/ccna1.png" alt="" class="xp-logo" />
+              <p>CCNA 1 : Introduction to Networks Certificate</p>
+            </div>
+            <div class="xp">
+              <span class="xp-proof"
+                ><img src="./assets/32.jpg" class="proof"
+              /></span>
+              <img
+                src="./assets/googleitautomation.png"
+                alt=""
+                class="xp-logo"
+              />
+              <p>Google IT Automation with Python Professional Certificate</p>
+            </div>
+            <div class="xp">
+              <span class="xp-proof"
+                ><img src="./assets/32.jpg" class="proof"
+              /></span>
+              <img src="./assets/googleitsupport.png" alt="" class="xp-logo" />
+              <p>Google IT Support Professional Certificate</p>
+            </div>
+            <div class="xp">
+              <span class="xp-proof"
+                ><img src="./assets/32.jpg" class="proof"
+              /></span>
+              <img src="./assets/icpc.png" alt="" class="xp-logo" />
+              <p>
+                32nd place in the Tunisian Collegiate Programming Contest (2021)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container c-projects" id="projects">
+        <div class="project">
+          <div class="project-link">
+            <img
+              class="project-thumbnail"
+              src="./assets/stattrack.png"
+              alt="stattrack"
+            />
+            <p><a href="https://github.com/Alzomra/PFA">Stattrack</a></p>
+          </div>
+
+          <div class="project-details">
+            <div class="project-name">
+              <h2>A solution for recommending and monitoring access points.</h2>
+            </div>
+
+            <div class="project-description">
+              This application collects statistics on access points like:
+              throughput, users in real time and gives a histogram indicating
+              the use of an access point. Stattrack also provides a
+              recommendation for the optimal access point to the user based on
+              the collected data.
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-link">
+            <img
+              class="project-thumbnail"
+              src="./assets/praccforces.png"
+              alt="praccforces"
+            />
+            <p>
+              <a href="https://www.github.com">PraccForces</a> (Verified Bot)
+              <i class="fa-solid fa-check" style="color: rgb(0, 118, 222)"></i>
+            </p>
+          </div>
+
+          <div class="project-details">
+            <div class="project-name">
+              <h2>
+                A competitive programming assistant implemented as a Discord Bot
+              </h2>
+            </div>
+
+            <div class="project-description">
+              This application helps to prepare / train in the context of
+              competitive programming, allowing easy access to information from
+              the Codeforces.com website
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-link">
+            <img
+              class="project-thumbnail"
+              src="./assets/syntAXE.png"
+              alt="praccforces"
+            />
+            <p>
+              <a href="https://www.github.com">SyntAXE</a> (Verified Bot)
+              <i class="fa-solid fa-check" style="color: rgb(0, 118, 222)"></i>
+            </p>
+          </div>
+
+          <div class="project-details">
+            <div class="project-name">
+              <h2>
+                A Discord app for learning programming language syntax
+                <i class="fa-solid fa-check"></i>
+              </h2>
+            </div>
+
+            <div class="project-description">
+              SyntAXE allows you to easily find the syntax of your favorite
+              programming language. Support for Java, C, C++, C#, JS, Swift,
+              Python, Ruby and Go.
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-link">
+            <img
+              class="project-thumbnail"
+              src="./assets/chalghoum.jpg"
+              alt="chalghoum"
+            />
+            <p><a href="https://www.chalghoum.tn">Chalghoum</a></p>
+          </div>
+
+          <div class="project-details">
+            <div class="project-name">
+              <h2>A moderation and Gaming assistant for discord.</h2>
+            </div>
+
+            <div class="project-description">
+              This discord bot is dedicated to facilitating management and
+              moderation discord servers.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="container" id="skills">
-      <div class="all-skills">
-        <div class="skills">
-          <div class="subtitle">Programming Languages</div>
-
-          <div class="icons">
-            <div class="tooltip">
-              <img src="./assets/python.png" class="logo" alt="" />
-              <h4>Python</h4>
-              <span class="tooltip-text">Advanced</span>
-            </div>
-
-            <div class="tooltip">
-              <img src="./assets/js.png" class="logo" alt="" />
-              <h4>JavaScript</h4>
-              <span class="tooltip-text">Advanced</span>
-            </div>
-            <div class="tooltip">
-              <img src="./assets/cpp.png" class="logo" alt="" />
-              <h4>C++</h4>
-              <span class="tooltip-text">Intermediate</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="skills">
-          <div class="subtitle">Stylesheet & Markup Languages</div>
-          <div class="icons">
-            <div class="tooltip">
-              <img src="./assets/markdown.png" class="logo" alt="" />
-              <h4>Markdown</h4>
-              <span class="tooltip-text">Experienced</span>
-            </div>
-            <div class="tooltip">
-              <img src="./assets/html.png" class="logo" alt="" />
-              <h4>HTML</h4>
-              <span class="tooltip-text">Advanced</span>
-            </div>
-            <div class="tooltip">
-              <img src="./assets/css.png" class="logo" alt="" />
-              <h4>CSS</h4>
-              <span class="tooltip-text">Advanced</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="skills">
-          <div class="subtitle">DataBases & Frameworks</div>
-          <div class="icons">
-            <div class="tooltip">
-              <img src="./assets/mongodb.png" class="logo" alt="" />
-              <h4>MongoDB</h4>
-              <span class="tooltip-text">Advanced</span>
-            </div>
-            <div class="tooltip">
-              <img src="./assets/vuejs.png" class="logo" alt="" />
-              <h4>VueJS</h4>
-              <span class="tooltip-text">Intermediate</span>
-            </div>
-            <div class="tooltip">
-              <img src="./assets/flask.png" class="logo" alt="" />
-              <h4>Flask</h4>
-              <span class="tooltip-text">Advanced API development skills</span>
-            </div>
-            <div class="tooltip">
-              <img src="./assets/django.png" class="logo" alt="" />
-              <h4>Django</h4>
-              <span class="tooltip-text">Intermedaite</span>
-            </div>
-          </div>
-        </div>
-        <div class="skills">
-          <div class="subtitle">Other Skills</div>
-          <div class="icons">
-            <div class="tooltip">
-              <img src="./assets/git.png" class="logo" alt="" />
-              <h4>Git</h4>
-              <span class="tooltip-text">Intermediate (version control)</span>
-            </div>
-            <div class="tooltip">
-              <img src="./assets/discord.png" class="logo" alt="" />
-              <h4>Discord</h4>
-              <span class="tooltip-text">Certified Discord Bot Developper</span>
-            </div>
-
-            <div class="tooltip">
-              <img src="./assets/docker.png" class="logo" alt="" />
-              <h4>Docker</h4>
-              <span class="tooltip-text">Beginner</span>
-            </div>
-            <div class="tooltip">
-              <img src="./assets/ubuntu.png" class="logo" alt="" />
-              <h4>Linux</h4>
-              <span class="tooltip-text">Advanced (System administration)</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div class="back-to-top">
-        <a href="#home"><i class="fas fa-arrow-circle-up fa-2x"></i></a>
-      </div>
-    </div>
-
-
-    <div class="container " id="experiences-languages">
-      <div class="lang-exp">
-        <h2 class="xp-title">Languages</h2>
-        <div class="all-items">
-          <div class="lang">
-            <h5>Arabic</h5>
-            <div class="stars">
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-          </div>
-          <div class="lang">
-            <h5>French</h5>
-            <div class="stars">
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-          </div>
-          <div class="lang">
-            <h5>English</h5>
-            <div class="stars">
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-          </div>
-          <div class="lang">
-            <h5>German - Dutch</h5>
-            <div class="stars">
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="lang-exp">
-        <h2 class="xp-title">Experiences & Certifications</h2>
-        <div class="all-items">
-          <div class="xp">
-            <span class="xp-proof"><img src="./assets/32.jpg" class="proof"></span>
-            <img src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
-            alt="" class="xp-logo">
-            <p>AWS Certified Cloud Practitioner</p>
-          </div>
-          <div class="xp">
-            <span class="xp-proof"><img src="./assets/32.jpg" class="proof"></span>
-            <img src="https://images.credly.com/images/44e2c252-5d19-4574-9646-005f7225bf53/image.png"
-              alt="" class="xp-logo">
-            <p>AWS re/Start Graduate</p>
-          </div>
-          <div class="xp">
-            <span class="xp-proof"><img src="./assets/32.jpg" class="proof"></span>
-            <img src="./assets/ccna1.png" alt="" class="xp-logo">
-            <p>CCNA 1 : Introduction to Networks Certificate</p>
-          </div>
-          <div class="xp">
-            <span class="xp-proof"><img src="./assets/32.jpg" class="proof"></span>
-            <img src="./assets/googleitautomation.png" alt="" class="xp-logo">
-            <p>Google IT Automation with Python Professional Certificate</p>
-          </div>
-          <div class="xp">
-            <span class="xp-proof"><img src="./assets/32.jpg" class="proof"></span>
-            <img src="./assets/googleitsupport.png" alt="" class="xp-logo">
-            <p>Google IT Support Professional Certificate</p>
-          </div>
-          <div class="xp">
-            <span class="xp-proof"><img src="./assets/32.jpg" class="proof"></span>
-            <img src="./assets/icpc.png" alt="" class="xp-logo">
-            <p>32nd place in the Tunisian Collegiate Programming Contest (2021)</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="container c-projects" id="projects">
-      <div class="project">
-        <div class="project-link">
-          <img class="project-thumbnail" src="./assets/stattrack.png" alt="stattrack" />
-          <p> <a href="https://github.com/Alzomra/PFA">Stattrack</a></p>
-        </div>
-
-        <div class="project-details">
-          <div class="project-name">
-            <h2>
-              A solution for recommending and monitoring access points.
-            </h2>
-          </div>
-
-          <div class="project-description">
-            This application collects statistics on access points
-            like: throughput, users in real time and gives a histogram
-            indicating the use of an access point. Stattrack also provides
-            a recommendation for the optimal access point to the user
-            based on the collected data.
-          </div>
-        </div>
-      </div>
-
-      <div class="project">
-        <div class="project-link">
-          <img class="project-thumbnail" src="./assets/praccforces.png" alt="praccforces" />
-          <p> <a href="https://www.github.com">PraccForces</a> (Verified Bot) <i class="fa-solid fa-check"
-              style="color : rgb(0, 118, 222)"></i></p>
-        </div>
-
-        <div class="project-details">
-          <div class="project-name">
-            <h2>
-              A competitive programming assistant implemented as a Discord Bot
-            </h2>
-          </div>
-
-          <div class="project-description">
-            This application helps to prepare / train in the context of
-            competitive programming, allowing easy access to
-            information from the Codeforces.com website
-          </div>
-        </div>
-      </div>
-
-
-      <div class="project">
-        <div class="project-link">
-          <img class="project-thumbnail" src="./assets/syntAXE.png" alt="praccforces" />
-          <p> <a href="https://www.github.com">SyntAXE</a> (Verified Bot) <i class="fa-solid fa-check"
-              style="color : rgb(0, 118, 222)"></i></p>
-        </div>
-
-        <div class="project-details">
-          <div class="project-name">
-            <h2>
-              A Discord app for learning programming language syntax
-              <i class="fa-solid fa-check"></i>
-            </h2>
-          </div>
-
-          <div class="project-description">
-            SyntAXE allows you to easily find the syntax of your favorite programming language.
-            Support for Java, C, C++, C#, JS, Swift, Python, Ruby and Go.
-          </div>
-        </div>
-      </div>
-
-      <div class="project">
-        <div class="project-link">
-          <img class="project-thumbnail" src="./assets/chalghoum.jpg" alt="chalghoum" />
-          <p> <a href="https://www.chalghoum.tn">Chalghoum</a></p>
-        </div>
-
-        <div class="project-details">
-          <div class="project-name">
-            <h2>A moderation and Gaming assistant for discord.</h2>
-          </div>
-
-          <div class="project-description">
-            This discord bot is dedicated to facilitating management and moderation
-            discord servers.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
