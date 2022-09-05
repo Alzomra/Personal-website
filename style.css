@@ -80,6 +80,7 @@ a {
   gap: 10px;
 }
 
+
 .icons {
   display: flex;
   justify-content: center;
@@ -268,7 +269,7 @@ h4 {
 }
 
 #experiences-languages{
-  flex-direction: row !important;
+  flex-direction: row;
   gap: 20px;
 }
 
@@ -463,14 +464,61 @@ h2{
   }
 }
 
-.xp:first-child{
-  margin-top: 200px;
+@media screen and (max-width: 600px) {
+
+  .icons{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #skills{
+    height: fit-content;
+    overflow-y: scroll;
+    min-height: 190vh;
+  }
+  .container{
+    min-height: max-content;
+    scroll-snap-align: unset;
+    overflow-y: scroll;
+  }
+  /*   .skills:first-child{
+    margin-top: 600px;
+  } */
+
+  #experiences-languages{
+    flex-direction: column;
+    min-height: 160vh;
+  }
+
+  #experiences-languages > *{
+    width: 70vw;
+  }
+  .lang-exp{
+    font-size: 20px;
+    max-height: fit-content;
+  }
+  .xp-title{
+    font-size: 18px;
+  }
+  #projects{
+    min-height: 200vh;
+  }
+  .big-container {
+    overflow-y: scroll;
+    scroll-behavior: inherit;
+    scroll-snap-type: none none;
+    overflow-x: hidden;
+    background-color: #36393f;
+  }
 }
+
+/* .xp:first-child{
+  margin-top: 200px;
+} */
 
 .overflow{
   overflow: scroll;
-
 }
+
 .overflow::-webkit-scrollbar {
   display: none;
 }
